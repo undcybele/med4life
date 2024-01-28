@@ -1,0 +1,2302 @@
+[
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Nadia Georgescu",
+            "age": 50,
+            "height": 174,
+            "weight": 51,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 74,
+            "blood_pressure_systolic": 107,
+            "blood_pressure_diastolic": 73,
+            "oxygen_saturation": 95
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1623,
+            "carbs": 202.875,
+            "protein": 101.4375,
+            "fat": 45.083333333333336
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Ruxandra Albu",
+            "age": 31,
+            "height": 175,
+            "weight": 68,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 86,
+            "blood_pressure_systolic": 93,
+            "blood_pressure_diastolic": 76,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1948,
+            "carbs": 243.5,
+            "protein": 121.75,
+            "fat": 54.111111111111114
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Valeriu Dobre",
+            "age": 34,
+            "height": 185,
+            "weight": 59,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 78,
+            "blood_pressure_systolic": 117,
+            "blood_pressure_diastolic": 68,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 1897,
+            "carbs": 284.55,
+            "protein": 94.85000000000001,
+            "fat": 42.15555555555556
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "David Tudor",
+            "age": 74,
+            "height": 165,
+            "weight": 67,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 80,
+            "blood_pressure_systolic": 100,
+            "blood_pressure_diastolic": 75,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1603,
+            "carbs": 200.375,
+            "protein": 120.225,
+            "fat": 35.62222222222223
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Aura Diaconescu",
+            "age": 58,
+            "height": 169,
+            "weight": 94,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 92,
+            "blood_pressure_systolic": 117,
+            "blood_pressure_diastolic": 68,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 2053,
+            "carbs": 256.625,
+            "protein": 153.975,
+            "fat": 45.62222222222223
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Suzana Aanei",
+            "age": 22,
+            "height": 200,
+            "weight": 83,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 78,
+            "blood_pressure_systolic": 113,
+            "blood_pressure_diastolic": 77,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 2370,
+            "carbs": 237.0,
+            "protein": 177.75,
+            "fat": 79.0
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Profira Pop",
+            "age": 55,
+            "height": 189,
+            "weight": 100,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 100,
+            "blood_pressure_systolic": 120,
+            "blood_pressure_diastolic": 68,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2293,
+            "carbs": 286.625,
+            "protein": 143.3125,
+            "fat": 63.69444444444444
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Paulina Tudor",
+            "age": 76,
+            "height": 181,
+            "weight": 82,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 87,
+            "blood_pressure_systolic": 118,
+            "blood_pressure_diastolic": 76,
+            "oxygen_saturation": 95
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1891,
+            "carbs": 236.375,
+            "protein": 118.1875,
+            "fat": 52.52777777777778
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Cristea Nistor",
+            "age": 55,
+            "height": 200,
+            "weight": 88,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 86,
+            "blood_pressure_systolic": 117,
+            "blood_pressure_diastolic": 74,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 2232,
+            "carbs": 279.0,
+            "protein": 167.4,
+            "fat": 49.6
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Dida Dumitrescu",
+            "age": 80,
+            "height": 186,
+            "weight": 92,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 98,
+            "blood_pressure_systolic": 95,
+            "blood_pressure_diastolic": 60,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2025,
+            "carbs": 253.125,
+            "protein": 151.875,
+            "fat": 45.0
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Eugen Suciu",
+            "age": 59,
+            "height": 196,
+            "weight": 72,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 83,
+            "blood_pressure_systolic": 106,
+            "blood_pressure_diastolic": 68,
+            "oxygen_saturation": 95
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1986,
+            "carbs": 148.95,
+            "protein": 198.60000000000002,
+            "fat": 66.19999999999999
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Amedeu Ni\u021b\u0103",
+            "age": 19,
+            "height": 180,
+            "weight": 60,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 65,
+            "blood_pressure_systolic": 102,
+            "blood_pressure_diastolic": 63,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 1962,
+            "carbs": 245.25,
+            "protein": 147.15,
+            "fat": 43.6
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Gina Stancu",
+            "age": 48,
+            "height": 185,
+            "weight": 86,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 98,
+            "blood_pressure_systolic": 102,
+            "blood_pressure_diastolic": 61,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2137,
+            "carbs": 320.55,
+            "protein": 106.85000000000001,
+            "fat": 47.488888888888894
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Betina Dobre",
+            "age": 44,
+            "height": 168,
+            "weight": 92,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 72,
+            "blood_pressure_systolic": 99,
+            "blood_pressure_diastolic": 78,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 2106,
+            "carbs": 315.9,
+            "protein": 105.30000000000001,
+            "fat": 46.800000000000004
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Julia Ababei",
+            "age": 70,
+            "height": 177,
+            "weight": 88,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 63,
+            "blood_pressure_systolic": 105,
+            "blood_pressure_diastolic": 73,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 5,
+        "nutrition": {
+            "calories": 1969,
+            "carbs": 196.9,
+            "protein": 147.67499999999998,
+            "fat": 65.63333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Haralambie Mocanu",
+            "age": 74,
+            "height": 172,
+            "weight": 70,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 84,
+            "blood_pressure_systolic": 106,
+            "blood_pressure_diastolic": 69,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1692,
+            "carbs": 253.79999999999998,
+            "protein": 84.60000000000001,
+            "fat": 37.6
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Rafael Manole",
+            "age": 25,
+            "height": 164,
+            "weight": 78,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 64,
+            "blood_pressure_systolic": 107,
+            "blood_pressure_diastolic": 68,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2022,
+            "carbs": 202.20000000000002,
+            "protein": 151.65,
+            "fat": 67.4
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Aurel Preda",
+            "age": 48,
+            "height": 197,
+            "weight": 66,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 92,
+            "blood_pressure_systolic": 94,
+            "blood_pressure_diastolic": 78,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1987,
+            "carbs": 248.375,
+            "protein": 149.025,
+            "fat": 44.15555555555556
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Valeria Ionescu",
+            "age": 71,
+            "height": 180,
+            "weight": 50,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 68,
+            "blood_pressure_systolic": 108,
+            "blood_pressure_diastolic": 63,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1530,
+            "carbs": 153.0,
+            "protein": 114.75,
+            "fat": 51.0
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Zaharia St\u0103nescu",
+            "age": 70,
+            "height": 196,
+            "weight": 61,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 75,
+            "blood_pressure_systolic": 104,
+            "blood_pressure_diastolic": 77,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1788,
+            "carbs": 223.5,
+            "protein": 134.1,
+            "fat": 39.733333333333334
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Elisaveta Nistor",
+            "age": 31,
+            "height": 159,
+            "weight": 67,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 82,
+            "blood_pressure_systolic": 114,
+            "blood_pressure_diastolic": 68,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1816,
+            "carbs": 136.2,
+            "protein": 181.60000000000002,
+            "fat": 60.53333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Irina Gheorghiu",
+            "age": 61,
+            "height": 187,
+            "weight": 52,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 76,
+            "blood_pressure_systolic": 117,
+            "blood_pressure_diastolic": 70,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1666,
+            "carbs": 249.89999999999998,
+            "protein": 83.30000000000001,
+            "fat": 37.022222222222226
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Valeria Preda",
+            "age": 44,
+            "height": 163,
+            "weight": 69,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 92,
+            "blood_pressure_systolic": 104,
+            "blood_pressure_diastolic": 67,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1792,
+            "carbs": 268.8,
+            "protein": 89.60000000000001,
+            "fat": 39.82222222222222
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Liliana Tabacu",
+            "age": 37,
+            "height": 161,
+            "weight": 100,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 86,
+            "blood_pressure_systolic": 118,
+            "blood_pressure_diastolic": 79,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 2191,
+            "carbs": 328.65,
+            "protein": 109.55000000000001,
+            "fat": 48.6888888888889
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Anu\u021ba Tudor",
+            "age": 61,
+            "height": 180,
+            "weight": 88,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 72,
+            "blood_pressure_systolic": 103,
+            "blood_pressure_diastolic": 63,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2046,
+            "carbs": 255.75,
+            "protein": 153.45,
+            "fat": 45.46666666666667
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Vasile Marin",
+            "age": 19,
+            "height": 155,
+            "weight": 73,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 98,
+            "blood_pressure_systolic": 113,
+            "blood_pressure_diastolic": 78,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1930,
+            "carbs": 241.25,
+            "protein": 144.75,
+            "fat": 42.888888888888886
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Tiberia Voinea",
+            "age": 49,
+            "height": 163,
+            "weight": 97,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 70,
+            "blood_pressure_systolic": 91,
+            "blood_pressure_diastolic": 69,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 2098,
+            "carbs": 209.8,
+            "protein": 157.35,
+            "fat": 69.93333333333334
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Anatolie Albu",
+            "age": 32,
+            "height": 179,
+            "weight": 94,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 98,
+            "blood_pressure_systolic": 113,
+            "blood_pressure_diastolic": 61,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 2284,
+            "carbs": 171.29999999999998,
+            "protein": 228.4,
+            "fat": 76.13333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Mina Dinu",
+            "age": 37,
+            "height": 155,
+            "weight": 55,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 93,
+            "blood_pressure_systolic": 120,
+            "blood_pressure_diastolic": 74,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 1606,
+            "carbs": 160.60000000000002,
+            "protein": 120.44999999999999,
+            "fat": 53.53333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Severin Popa",
+            "age": 47,
+            "height": 155,
+            "weight": 74,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 64,
+            "blood_pressure_systolic": 112,
+            "blood_pressure_diastolic": 72,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1774,
+            "carbs": 221.75,
+            "protein": 133.04999999999998,
+            "fat": 39.422222222222224
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Leopoldina Ardelean",
+            "age": 53,
+            "height": 181,
+            "weight": 99,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 80,
+            "blood_pressure_systolic": 97,
+            "blood_pressure_diastolic": 76,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2233,
+            "carbs": 279.125,
+            "protein": 167.475,
+            "fat": 49.62222222222223
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Stelian Manole",
+            "age": 20,
+            "height": 157,
+            "weight": 92,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 79,
+            "blood_pressure_systolic": 110,
+            "blood_pressure_diastolic": 79,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 2167,
+            "carbs": 162.525,
+            "protein": 216.70000000000002,
+            "fat": 72.23333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Sonia Diaconescu",
+            "age": 43,
+            "height": 175,
+            "weight": 76,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 97,
+            "blood_pressure_systolic": 118,
+            "blood_pressure_diastolic": 65,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1972,
+            "carbs": 246.5,
+            "protein": 123.25,
+            "fat": 54.77777777777778
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Petru Stancu",
+            "age": 29,
+            "height": 195,
+            "weight": 57,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 91,
+            "blood_pressure_systolic": 91,
+            "blood_pressure_diastolic": 65,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1978,
+            "carbs": 197.8,
+            "protein": 148.35,
+            "fat": 65.93333333333334
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Petronela Ardelean",
+            "age": 38,
+            "height": 162,
+            "weight": 56,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 82,
+            "blood_pressure_systolic": 96,
+            "blood_pressure_diastolic": 76,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1665,
+            "carbs": 124.875,
+            "protein": 166.5,
+            "fat": 55.5
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Lucian Stoica",
+            "age": 26,
+            "height": 172,
+            "weight": 85,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 91,
+            "blood_pressure_systolic": 105,
+            "blood_pressure_diastolic": 61,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 2160,
+            "carbs": 270.0,
+            "protein": 135.0,
+            "fat": 60.0
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Iurie Oprea",
+            "age": 44,
+            "height": 178,
+            "weight": 82,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 70,
+            "blood_pressure_systolic": 116,
+            "blood_pressure_diastolic": 65,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 2061,
+            "carbs": 257.625,
+            "protein": 154.575,
+            "fat": 45.800000000000004
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Corneliu Nistor",
+            "age": 52,
+            "height": 155,
+            "weight": 90,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 80,
+            "blood_pressure_systolic": 95,
+            "blood_pressure_diastolic": 66,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1936,
+            "carbs": 145.2,
+            "protein": 193.60000000000002,
+            "fat": 64.53333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Axenia Stancu",
+            "age": 46,
+            "height": 188,
+            "weight": 61,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 65,
+            "blood_pressure_systolic": 93,
+            "blood_pressure_diastolic": 67,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1872,
+            "carbs": 234.0,
+            "protein": 117.0,
+            "fat": 52.0
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Mitic\u0103 Suciu",
+            "age": 18,
+            "height": 169,
+            "weight": 54,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 68,
+            "blood_pressure_systolic": 112,
+            "blood_pressure_diastolic": 60,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1813,
+            "carbs": 226.625,
+            "protein": 135.975,
+            "fat": 40.28888888888889
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Fabia Toma",
+            "age": 53,
+            "height": 181,
+            "weight": 97,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 81,
+            "blood_pressure_systolic": 102,
+            "blood_pressure_diastolic": 75,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 2209,
+            "carbs": 276.125,
+            "protein": 138.0625,
+            "fat": 61.361111111111114
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Remus Suciu",
+            "age": 59,
+            "height": 173,
+            "weight": 75,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 90,
+            "blood_pressure_systolic": 105,
+            "blood_pressure_diastolic": 77,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1849,
+            "carbs": 277.34999999999997,
+            "protein": 92.45,
+            "fat": 41.08888888888889
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Ofelia Mocanu",
+            "age": 67,
+            "height": 174,
+            "weight": 78,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 96,
+            "blood_pressure_systolic": 107,
+            "blood_pressure_diastolic": 60,
+            "oxygen_saturation": 95
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1845,
+            "carbs": 230.625,
+            "protein": 115.3125,
+            "fat": 51.25
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Emilia Cristea",
+            "age": 32,
+            "height": 188,
+            "weight": 91,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 100,
+            "blood_pressure_systolic": 95,
+            "blood_pressure_diastolic": 78,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 2316,
+            "carbs": 173.7,
+            "protein": 231.60000000000002,
+            "fat": 77.19999999999999
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Codru\u021b Florea",
+            "age": 54,
+            "height": 200,
+            "weight": 99,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 89,
+            "blood_pressure_systolic": 110,
+            "blood_pressure_diastolic": 66,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2370,
+            "carbs": 177.75,
+            "protein": 237.0,
+            "fat": 79.0
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Tudori\u021ba Pu\u0219ca\u0219u",
+            "age": 69,
+            "height": 165,
+            "weight": 55,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 67,
+            "blood_pressure_systolic": 107,
+            "blood_pressure_diastolic": 72,
+            "oxygen_saturation": 95
+        },
+        "sleep_duration": 5,
+        "nutrition": {
+            "calories": 1489,
+            "carbs": 148.9,
+            "protein": 111.675,
+            "fat": 49.63333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Floarea Ardelean",
+            "age": 70,
+            "height": 194,
+            "weight": 76,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 97,
+            "blood_pressure_systolic": 94,
+            "blood_pressure_diastolic": 79,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1953,
+            "carbs": 195.3,
+            "protein": 146.475,
+            "fat": 65.1
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Bogdana Mocanu",
+            "age": 23,
+            "height": 200,
+            "weight": 68,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 78,
+            "blood_pressure_systolic": 98,
+            "blood_pressure_diastolic": 60,
+            "oxygen_saturation": 95
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2184,
+            "carbs": 163.79999999999998,
+            "protein": 218.4,
+            "fat": 72.8
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Anabela Florea",
+            "age": 31,
+            "height": 154,
+            "weight": 89,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 68,
+            "blood_pressure_systolic": 120,
+            "blood_pressure_diastolic": 69,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2043,
+            "carbs": 255.375,
+            "protein": 127.6875,
+            "fat": 56.75
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Petric\u0103 Neme\u0219",
+            "age": 46,
+            "height": 170,
+            "weight": 91,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 99,
+            "blood_pressure_systolic": 117,
+            "blood_pressure_diastolic": 65,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 2097,
+            "carbs": 262.125,
+            "protein": 157.275,
+            "fat": 46.6
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Ioana Tomescu",
+            "age": 58,
+            "height": 170,
+            "weight": 87,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 99,
+            "blood_pressure_systolic": 98,
+            "blood_pressure_diastolic": 65,
+            "oxygen_saturation": 95
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1977,
+            "carbs": 148.275,
+            "protein": 197.70000000000002,
+            "fat": 65.9
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Anu\u021ba Stancu",
+            "age": 32,
+            "height": 151,
+            "weight": 78,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 87,
+            "blood_pressure_systolic": 112,
+            "blood_pressure_diastolic": 71,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 1882,
+            "carbs": 141.15,
+            "protein": 188.20000000000002,
+            "fat": 62.733333333333334
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Ramona Tudor",
+            "age": 49,
+            "height": 187,
+            "weight": 74,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 60,
+            "blood_pressure_systolic": 104,
+            "blood_pressure_diastolic": 67,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 2002,
+            "carbs": 250.25,
+            "protein": 125.125,
+            "fat": 55.611111111111114
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Artemisa Suciu",
+            "age": 29,
+            "height": 157,
+            "weight": 98,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 100,
+            "blood_pressure_systolic": 104,
+            "blood_pressure_diastolic": 75,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 2185,
+            "carbs": 163.875,
+            "protein": 218.5,
+            "fat": 72.83333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Mihnea Dinu",
+            "age": 51,
+            "height": 167,
+            "weight": 60,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 96,
+            "blood_pressure_systolic": 116,
+            "blood_pressure_diastolic": 71,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1672,
+            "carbs": 250.79999999999998,
+            "protein": 83.60000000000001,
+            "fat": 37.15555555555556
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Claudiu Marin",
+            "age": 21,
+            "height": 151,
+            "weight": 54,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 84,
+            "blood_pressure_systolic": 90,
+            "blood_pressure_diastolic": 61,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 1660,
+            "carbs": 166.0,
+            "protein": 124.5,
+            "fat": 55.333333333333336
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Lorin Ene",
+            "age": 44,
+            "height": 174,
+            "weight": 91,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 64,
+            "blood_pressure_systolic": 96,
+            "blood_pressure_diastolic": 71,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 2139,
+            "carbs": 213.9,
+            "protein": 160.42499999999998,
+            "fat": 71.3
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Vicen\u021biu Nistor",
+            "age": 38,
+            "height": 166,
+            "weight": 50,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 76,
+            "blood_pressure_systolic": 104,
+            "blood_pressure_diastolic": 80,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 1623,
+            "carbs": 121.725,
+            "protein": 162.3,
+            "fat": 54.099999999999994
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Lucen\u021biu Dobre",
+            "age": 23,
+            "height": 161,
+            "weight": 66,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 79,
+            "blood_pressure_systolic": 102,
+            "blood_pressure_diastolic": 75,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 1867,
+            "carbs": 140.025,
+            "protein": 186.70000000000002,
+            "fat": 62.233333333333334
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Adina Ababei",
+            "age": 67,
+            "height": 166,
+            "weight": 66,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 84,
+            "blood_pressure_systolic": 110,
+            "blood_pressure_diastolic": 73,
+            "oxygen_saturation": 95
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1641,
+            "carbs": 246.14999999999998,
+            "protein": 82.05000000000001,
+            "fat": 36.46666666666667
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Elvira St\u0103nescu",
+            "age": 39,
+            "height": 183,
+            "weight": 65,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 92,
+            "blood_pressure_systolic": 91,
+            "blood_pressure_diastolic": 72,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1924,
+            "carbs": 240.5,
+            "protein": 120.25,
+            "fat": 53.44444444444444
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Veniamin Dochioiu",
+            "age": 69,
+            "height": 181,
+            "weight": 67,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 78,
+            "blood_pressure_systolic": 104,
+            "blood_pressure_diastolic": 70,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1753,
+            "carbs": 131.475,
+            "protein": 175.3,
+            "fat": 58.43333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Clarisa Dumitrescu",
+            "age": 73,
+            "height": 185,
+            "weight": 100,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 85,
+            "blood_pressure_systolic": 94,
+            "blood_pressure_diastolic": 62,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2155,
+            "carbs": 215.5,
+            "protein": 161.625,
+            "fat": 71.83333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Patricia Stoica",
+            "age": 73,
+            "height": 173,
+            "weight": 89,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 89,
+            "blood_pressure_systolic": 108,
+            "blood_pressure_diastolic": 80,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1933,
+            "carbs": 289.95,
+            "protein": 96.65,
+            "fat": 42.955555555555556
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Leonard Nistor",
+            "age": 28,
+            "height": 184,
+            "weight": 84,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 78,
+            "blood_pressure_systolic": 98,
+            "blood_pressure_diastolic": 60,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 2226,
+            "carbs": 278.25,
+            "protein": 166.95,
+            "fat": 49.46666666666667
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Roza Tomescu",
+            "age": 49,
+            "height": 173,
+            "weight": 75,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 79,
+            "blood_pressure_systolic": 112,
+            "blood_pressure_diastolic": 67,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1909,
+            "carbs": 238.625,
+            "protein": 143.17499999999998,
+            "fat": 42.422222222222224
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Delia Marin",
+            "age": 75,
+            "height": 152,
+            "weight": 84,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 95,
+            "blood_pressure_systolic": 107,
+            "blood_pressure_diastolic": 65,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1704,
+            "carbs": 255.6,
+            "protein": 85.2,
+            "fat": 37.86666666666667
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Lorelei Dinu",
+            "age": 78,
+            "height": 151,
+            "weight": 51,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 89,
+            "blood_pressure_systolic": 91,
+            "blood_pressure_diastolic": 73,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1282,
+            "carbs": 128.20000000000002,
+            "protein": 96.14999999999999,
+            "fat": 42.73333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Vasile Ionescu",
+            "age": 78,
+            "height": 195,
+            "weight": 60,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 78,
+            "blood_pressure_systolic": 91,
+            "blood_pressure_diastolic": 78,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 5,
+        "nutrition": {
+            "calories": 1720,
+            "carbs": 258.0,
+            "protein": 86.0,
+            "fat": 38.22222222222222
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Rare\u0219 Nistor",
+            "age": 30,
+            "height": 188,
+            "weight": 90,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 62,
+            "blood_pressure_systolic": 116,
+            "blood_pressure_diastolic": 71,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 2316,
+            "carbs": 289.5,
+            "protein": 173.7,
+            "fat": 51.46666666666667
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Haralambie Barbu",
+            "age": 54,
+            "height": 155,
+            "weight": 81,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 95,
+            "blood_pressure_systolic": 114,
+            "blood_pressure_diastolic": 79,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1816,
+            "carbs": 227.0,
+            "protein": 136.2,
+            "fat": 40.35555555555556
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Aleodor Oprea",
+            "age": 60,
+            "height": 152,
+            "weight": 100,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 63,
+            "blood_pressure_systolic": 93,
+            "blood_pressure_diastolic": 75,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 5,
+        "nutrition": {
+            "calories": 1986,
+            "carbs": 198.60000000000002,
+            "protein": 148.95,
+            "fat": 66.19999999999999
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Astrid Diaconescu",
+            "age": 45,
+            "height": 152,
+            "weight": 51,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 63,
+            "blood_pressure_systolic": 97,
+            "blood_pressure_diastolic": 76,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1488,
+            "carbs": 186.0,
+            "protein": 111.6,
+            "fat": 33.06666666666667
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Geta Ene",
+            "age": 77,
+            "height": 183,
+            "weight": 68,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 97,
+            "blood_pressure_systolic": 106,
+            "blood_pressure_diastolic": 64,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 5,
+        "nutrition": {
+            "calories": 1732,
+            "carbs": 173.20000000000002,
+            "protein": 129.9,
+            "fat": 57.733333333333334
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Anatolie Ardelean",
+            "age": 18,
+            "height": 173,
+            "weight": 88,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 81,
+            "blood_pressure_systolic": 102,
+            "blood_pressure_diastolic": 60,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2251,
+            "carbs": 281.375,
+            "protein": 168.825,
+            "fat": 50.022222222222226
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Zenovia Eftimie",
+            "age": 31,
+            "height": 182,
+            "weight": 89,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 99,
+            "blood_pressure_systolic": 95,
+            "blood_pressure_diastolic": 61,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 2253,
+            "carbs": 281.625,
+            "protein": 168.975,
+            "fat": 50.06666666666667
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Marcheta Tomescu",
+            "age": 75,
+            "height": 199,
+            "weight": 90,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 66,
+            "blood_pressure_systolic": 112,
+            "blood_pressure_diastolic": 78,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 5,
+        "nutrition": {
+            "calories": 2128,
+            "carbs": 266.0,
+            "protein": 159.6,
+            "fat": 47.28888888888889
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Lavinia Dima",
+            "age": 36,
+            "height": 159,
+            "weight": 75,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 60,
+            "blood_pressure_systolic": 105,
+            "blood_pressure_diastolic": 74,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1882,
+            "carbs": 235.25,
+            "protein": 141.15,
+            "fat": 41.82222222222222
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Viviana Dobre",
+            "age": 41,
+            "height": 178,
+            "weight": 92,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 68,
+            "blood_pressure_systolic": 109,
+            "blood_pressure_diastolic": 78,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 2199,
+            "carbs": 274.875,
+            "protein": 164.92499999999998,
+            "fat": 48.86666666666667
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Erica Aanei",
+            "age": 61,
+            "height": 182,
+            "weight": 51,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 73,
+            "blood_pressure_systolic": 113,
+            "blood_pressure_diastolic": 69,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1617,
+            "carbs": 242.54999999999998,
+            "protein": 80.85000000000001,
+            "fat": 35.93333333333334
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Olimpia Diaconescu",
+            "age": 60,
+            "height": 198,
+            "weight": 68,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 80,
+            "blood_pressure_systolic": 92,
+            "blood_pressure_diastolic": 65,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 5,
+        "nutrition": {
+            "calories": 1947,
+            "carbs": 146.025,
+            "protein": 194.70000000000002,
+            "fat": 64.9
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "M\u0103d\u0103lin Toma",
+            "age": 58,
+            "height": 193,
+            "weight": 62,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 97,
+            "blood_pressure_systolic": 104,
+            "blood_pressure_diastolic": 78,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1849,
+            "carbs": 231.125,
+            "protein": 138.67499999999998,
+            "fat": 41.08888888888889
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Cleopatra Diaconu",
+            "age": 80,
+            "height": 162,
+            "weight": 65,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 67,
+            "blood_pressure_systolic": 117,
+            "blood_pressure_diastolic": 60,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1521,
+            "carbs": 152.1,
+            "protein": 114.075,
+            "fat": 50.7
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Avram Pop",
+            "age": 34,
+            "height": 164,
+            "weight": 78,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 60,
+            "blood_pressure_systolic": 101,
+            "blood_pressure_diastolic": 74,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 1968,
+            "carbs": 246.0,
+            "protein": 147.6,
+            "fat": 43.733333333333334
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Agata Ioni\u021b\u0103",
+            "age": 29,
+            "height": 160,
+            "weight": 91,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 95,
+            "blood_pressure_systolic": 105,
+            "blood_pressure_diastolic": 71,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 2124,
+            "carbs": 265.5,
+            "protein": 132.75,
+            "fat": 59.0
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Bogdan Tudor",
+            "age": 51,
+            "height": 184,
+            "weight": 93,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 77,
+            "blood_pressure_systolic": 113,
+            "blood_pressure_diastolic": 75,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 2196,
+            "carbs": 274.5,
+            "protein": 137.25,
+            "fat": 61.0
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Dida Ni\u021b\u0103",
+            "age": 50,
+            "height": 194,
+            "weight": 91,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 90,
+            "blood_pressure_systolic": 111,
+            "blood_pressure_diastolic": 76,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 2253,
+            "carbs": 168.975,
+            "protein": 225.3,
+            "fat": 75.1
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Ludovica Dinu",
+            "age": 54,
+            "height": 167,
+            "weight": 98,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 89,
+            "blood_pressure_systolic": 112,
+            "blood_pressure_diastolic": 61,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2110,
+            "carbs": 158.25,
+            "protein": 211.0,
+            "fat": 70.33333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Suzana Toma",
+            "age": 59,
+            "height": 189,
+            "weight": 50,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 94,
+            "blood_pressure_systolic": 114,
+            "blood_pressure_diastolic": 76,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1669,
+            "carbs": 166.9,
+            "protein": 125.175,
+            "fat": 55.63333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Ionelia Stan",
+            "age": 18,
+            "height": 200,
+            "weight": 98,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 84,
+            "blood_pressure_systolic": 94,
+            "blood_pressure_diastolic": 69,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 2574,
+            "carbs": 321.75,
+            "protein": 160.875,
+            "fat": 71.5
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Zamfir Eftimie",
+            "age": 55,
+            "height": 162,
+            "weight": 77,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 66,
+            "blood_pressure_systolic": 108,
+            "blood_pressure_diastolic": 61,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 9,
+        "nutrition": {
+            "calories": 1815,
+            "carbs": 226.875,
+            "protein": 136.125,
+            "fat": 40.333333333333336
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Ionelia Eftimie",
+            "age": 40,
+            "height": 159,
+            "weight": 86,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 60,
+            "blood_pressure_systolic": 92,
+            "blood_pressure_diastolic": 60,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 8,
+        "nutrition": {
+            "calories": 1990,
+            "carbs": 199.0,
+            "protein": 149.25,
+            "fat": 66.33333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Vl\u0103delina Barbu",
+            "age": 79,
+            "height": 157,
+            "weight": 76,
+            "food_preference": "low-fat"
+        },
+        "vital_signs": {
+            "heart_rate": 72,
+            "blood_pressure_systolic": 116,
+            "blood_pressure_diastolic": 63,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1621,
+            "carbs": 202.625,
+            "protein": 121.57499999999999,
+            "fat": 36.022222222222226
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Cristian Tabacu",
+            "age": 67,
+            "height": 191,
+            "weight": 55,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 93,
+            "blood_pressure_systolic": 92,
+            "blood_pressure_diastolic": 70,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1696,
+            "carbs": 212.0,
+            "protein": 106.0,
+            "fat": 47.111111111111114
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Janeta Tudor",
+            "age": 68,
+            "height": 187,
+            "weight": 54,
+            "food_preference": "high-protein"
+        },
+        "vital_signs": {
+            "heart_rate": 91,
+            "blood_pressure_systolic": 91,
+            "blood_pressure_diastolic": 71,
+            "oxygen_saturation": 99
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1648,
+            "carbs": 123.6,
+            "protein": 164.8,
+            "fat": 54.93333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Consuela Florea",
+            "age": 50,
+            "height": 186,
+            "weight": 84,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 91,
+            "blood_pressure_systolic": 102,
+            "blood_pressure_diastolic": 78,
+            "oxygen_saturation": 100
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 2109,
+            "carbs": 210.9,
+            "protein": 158.17499999999998,
+            "fat": 70.3
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Valter Tomescu",
+            "age": 65,
+            "height": 151,
+            "weight": 63,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 61,
+            "blood_pressure_systolic": 90,
+            "blood_pressure_diastolic": 79,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1504,
+            "carbs": 150.4,
+            "protein": 112.8,
+            "fat": 50.13333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Vincen\u021biu Pu\u0219ca\u0219u",
+            "age": 64,
+            "height": 166,
+            "weight": 52,
+            "food_preference": "high-carb"
+        },
+        "vital_signs": {
+            "heart_rate": 97,
+            "blood_pressure_systolic": 111,
+            "blood_pressure_diastolic": 76,
+            "oxygen_saturation": 98
+        },
+        "sleep_duration": 6,
+        "nutrition": {
+            "calories": 1491,
+            "carbs": 223.65,
+            "protein": 74.55,
+            "fat": 33.13333333333333
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Gabi Aanei",
+            "age": 47,
+            "height": 168,
+            "weight": 50,
+            "food_preference": "vegetarian"
+        },
+        "vital_signs": {
+            "heart_rate": 76,
+            "blood_pressure_systolic": 106,
+            "blood_pressure_diastolic": 71,
+            "oxygen_saturation": 96
+        },
+        "sleep_duration": 7,
+        "nutrition": {
+            "calories": 1584,
+            "carbs": 198.0,
+            "protein": 99.0,
+            "fat": 44.0
+        }
+    },
+    {
+        "date": "2023-12-31",
+        "person_details": {
+            "name": "Iurie Stoica",
+            "age": 60,
+            "height": 191,
+            "weight": 75,
+            "food_preference": "balanced"
+        },
+        "vital_signs": {
+            "heart_rate": 99,
+            "blood_pressure_systolic": 100,
+            "blood_pressure_diastolic": 62,
+            "oxygen_saturation": 97
+        },
+        "sleep_duration": 5,
+        "nutrition": {
+            "calories": 1978,
+            "carbs": 197.8,
+            "protein": 148.35,
+            "fat": 65.93333333333334
+        }
+    }
+]

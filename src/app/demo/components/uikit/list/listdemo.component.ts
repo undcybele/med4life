@@ -1,73 +1,97 @@
-import { Component, OnInit } from '@angular/core';
-import { SelectItem } from 'primeng/api';
+import {Component, inject, OnInit} from '@angular/core';
+import {MessageService, SelectItem} from 'primeng/api';
 import { DataView } from 'primeng/dataview';
-import { Product } from 'src/app/demo/api/product';
-import { ProductService } from 'src/app/demo/service/product.service';
+import { PersonData } from 'src/app/demo/api/customer';
+import { PatientService } from 'src/app/demo/service/patient.service';
+import {Router} from "@angular/router";
+import {Product} from "../../../api/product";
 
 @Component({
-    templateUrl: './listdemo.component.html'
+    templateUrl: './listdemo.component.html',
+    providers: [MessageService]
 })
 export class ListDemoComponent implements OnInit {
 
-    products: Product[] = [];
-
-    sortOptions: SelectItem[] = [];
-
-    sortOrder: number = 0;
-
+    patients: PersonData[] = [];
+    router = inject(Router);
     sortField: string = '';
-
-    sourceCities: any[] = [];
-
-    targetCities: any[] = [];
-
-    orderCities: any[] = [];
-
-    constructor(private productService: ProductService) { }
+    constructor(private patientService: PatientService) { }
 
     ngOnInit() {
-        this.productService.getProducts().then(data => this.products = data);
-
-        this.sourceCities = [
-            { name: 'San Francisco', code: 'SF' },
-            { name: 'London', code: 'LDN' },
-            { name: 'Paris', code: 'PRS' },
-            { name: 'Istanbul', code: 'IST' },
-            { name: 'Berlin', code: 'BRL' },
-            { name: 'Barcelona', code: 'BRC' },
-            { name: 'Rome', code: 'RM' }];
-
-        this.targetCities = [];
-
-        this.orderCities = [
-            { name: 'San Francisco', code: 'SF' },
-            { name: 'London', code: 'LDN' },
-            { name: 'Paris', code: 'PRS' },
-            { name: 'Istanbul', code: 'IST' },
-            { name: 'Berlin', code: 'BRL' },
-            { name: 'Barcelona', code: 'BRC' },
-            { name: 'Rome', code: 'RM' }];
-
-        this.sortOptions = [
-            { label: 'Price High to Low', value: '!price' },
-            { label: 'Price Low to High', value: 'price' }
-        ];
-    }
-
-    onSortChange(event: any) {
-        const value = event.value;
-
-        if (value.indexOf('!') === 0) {
-            this.sortOrder = -1;
-            this.sortField = value.substring(1, value.length);
-        } else {
-            this.sortOrder = 1;
-            this.sortField = value;
-        }
+        this.patientService.getAllPatients().then(data => this.patients = data);
     }
 
     onFilter(dv: DataView, event: Event) {
         dv.filter((event.target as HTMLInputElement).value);
     }
-    
+
+    analyzeHealth(person: PersonData): string {
+        const { vital_signs, person_details: { age } } = person;
+
+        // Weight the importance of each vital sign based on age
+        let heartRateWeight = 1;
+        let bloodPressureWeight = 1;
+        let oxygenSaturationWeight = 1;
+
+        if (age >= 50) {
+            heartRateWeight *= 0.8;
+            bloodPressureWeight *= 1.08;
+        }
+
+        // Check for issues
+        if (vital_signs.heart_rate && vital_signs.heart_rate > 162 * heartRateWeight) {
+            return 'heart_rate_issue';
+        }
+
+        if (vital_signs.blood_pressure_systolic && (vital_signs.blood_pressure_systolic > 130 * bloodPressureWeight) || (vital_signs.blood_pressure_systolic < 90 * bloodPressureWeight)) {
+            return 'blood_pressure_issue';
+        }
+
+        if (vital_signs.blood_pressure_diastolic && (vital_signs.blood_pressure_diastolic > 90 * bloodPressureWeight) || (vital_signs.blood_pressure_diastolic < 70)) {
+            return 'blood_pressure_issue';
+        }
+
+        if (vital_signs.oxygen_saturation && vital_signs.oxygen_saturation < 96 * oxygenSaturationWeight) {
+            return 'oxygen_saturation_issue';
+        }
+
+        return 'healthy';
+    }
+
+
+    goToPersonal(patient: PersonData) {
+        console.log('patient haha', patient.person_details.name);
+        this.router.navigate([`personal/${patient.person_details.name}`]).then();
+    }
+
+    submitted: boolean = false;
+    patient: PersonData = {} as PersonData;
+    patientDialog: boolean = false;
+    messageService = inject(MessageService);
+
+    openNew() {
+        this.patient = {
+            date: '',
+            person_details: {
+                name: "",
+                age: null,
+                height: null,
+                weight: null,
+                food_preference: "vegetarian"
+            },
+        };
+        this.submitted = false;
+        this.patientDialog = true;
+    }
+    hideDialog() {
+        this.patientDialog = false;
+        this.submitted = false;
+    }
+
+    savePatient() {
+        console.log(this.patient);
+        this.messageService.add({ severity: 'success', summary: 'Succes!', detail: 'Pacient nou creat cu succes', life: 3000 });
+        this.submitted = true;
+        this.patientDialog = false;
+    }
 }

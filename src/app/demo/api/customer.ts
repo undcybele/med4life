@@ -18,3 +18,31 @@ export interface Customer {
     activity?: number;
     representative?: Representative;
 }
+
+export interface PersonData {
+    date: string;
+    person_details: {
+      name: string;
+      age?: number;
+      height?: number;
+      weight?: number;
+      food_preference?: string;
+    };
+    vital_signs?: {
+      heart_rate?: number;
+      blood_pressure_systolic?: number;
+      blood_pressure_diastolic?: number;
+      oxygen_saturation?: number;
+    };
+    sleep_duration?: number;
+    nutrition?: {
+      calories?: number;
+      carbs?: number;
+      protein?: number;
+      fat?: number;
+    };
+  }
+
+  export interface HealthData {
+    [key: string]: PersonData;
+  }

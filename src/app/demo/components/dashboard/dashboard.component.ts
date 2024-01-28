@@ -1,18 +1,20 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import {Component, OnInit, OnDestroy, inject} from '@angular/core';
 import { MenuItem } from 'primeng/api';
 import { Product } from '../../api/product';
-import { ProductService } from '../../service/product.service';
+import { PatientService } from '../../service/patient.service';
 import { Subscription, debounceTime } from 'rxjs';
 import { LayoutService } from 'src/app/layout/service/app.layout.service';
+import { PersonData } from '../../api/customer';
+import {Router} from "@angular/router";
 
 @Component({
     templateUrl: './dashboard.component.html',
 })
 export class DashboardComponent implements OnInit, OnDestroy {
-
+    router = inject(Router);
     items!: MenuItem[];
 
-    products!: Product[];
+    patients!: PersonData[];
 
     chartData: any;
 
@@ -20,7 +22,11 @@ export class DashboardComponent implements OnInit, OnDestroy {
 
     subscription!: Subscription;
 
-    constructor(private productService: ProductService, public layoutService: LayoutService) {
+    oldPatients = 0;
+    healthyPatients = 0;
+    unhealthyPatients = 0;
+
+    constructor(private patientService: PatientService, public layoutService: LayoutService) {
         this.subscription = this.layoutService.configUpdate$
         .pipe(debounceTime(25))
         .subscribe((config) => {
@@ -30,8 +36,12 @@ export class DashboardComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
         this.initChart();
-        this.productService.getProductsSmall().then(data => this.products = data);
-
+        this.patientService.getAllPatients().then(data => {
+            this.patients = data;
+            this.oldPatients = data.filter(p => p.person_details.age > 65).length;
+            this.healthyPatients = 32;
+            this.unhealthyPatients = 68;
+        });
         this.items = [
             { label: 'Add New', icon: 'pi pi-fw pi-plus' },
             { label: 'Remove', icon: 'pi pi-fw pi-minus' }
@@ -43,7 +53,6 @@ export class DashboardComponent implements OnInit, OnDestroy {
         const textColor = documentStyle.getPropertyValue('--text-color');
         const textColorSecondary = documentStyle.getPropertyValue('--text-color-secondary');
         const surfaceBorder = documentStyle.getPropertyValue('--surface-border');
-
         this.chartData = {
             labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
             datasets: [
@@ -102,4 +111,11 @@ export class DashboardComponent implements OnInit, OnDestroy {
             this.subscription.unsubscribe();
         }
     }
+
+    goToPersonal(patient: PersonData) {
+        console.log('patient haha', patient.person_details.name);
+        this.router.navigate([`personal/${patient.person_details.name}`]).then();
+    }
+
+    protected readonly length = length;
 }
