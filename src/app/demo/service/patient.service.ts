@@ -1,8 +1,7 @@
 import {HttpClient} from '@angular/common/http';
 import {Injectable, signal} from '@angular/core';
-import {PersonData} from '../api/customer';
-import {firstValueFrom, Observable} from "rxjs";
-import {map} from "rxjs/operators";
+import {HealthStatus, PersonData} from '../api/customer';
+import {firstValueFrom} from "rxjs";
 
 @Injectable()
 export class PatientService {
@@ -17,8 +16,16 @@ export class PatientService {
     }
 
     async getPatientData(patientName: string) {
-        const res = await firstValueFrom(this.http.get<PersonData[]>('assets/demo/data/patients.json').pipe(map<unknown, PersonData[]>(response => response["data"])));
-        const data = res.filter(patient => patient.person_details.name === patientName);
+        const res = await firstValueFrom(this.http.get<{data: PersonData[]}>('assets/demo/data/patients.json'));
+        console.log('data', res);
+        const data = res.data.filter(patient => patient.person_details.name === patientName);
+        console.log('data1', data);
+        return data;
+    }
+
+    async getPatientHealthStatus(patientName: string) {
+        const res = await firstValueFrom(this.http.get<HealthStatus>('assets/demo/data/health_check_results.json'));
+        const data = res[patientName];
         return data;
     }
 }

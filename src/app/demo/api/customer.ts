@@ -46,3 +46,14 @@ export interface PersonData {
   export interface HealthData {
     [key: string]: PersonData;
   }
+
+  export interface status {
+    health_status: string;
+    recommendations: string[];
+    future_risks: string[];
+    explanations: string[];
+  }
+
+  export interface HealthStatus {
+    [key: string]: status;
+  }

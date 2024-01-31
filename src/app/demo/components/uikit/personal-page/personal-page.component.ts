@@ -1,11 +1,11 @@
 import {Component, effect, inject, signal} from '@angular/core';
 import {Router} from "@angular/router";
-import {PersonData} from "../../../api/customer";
+import {PersonData, status} from "../../../api/customer";
 import {PatientService} from "../../../service/patient.service";
 import {ChartModule} from "primeng/chart";
 import {ToggleButtonModule} from "primeng/togglebutton";
 import {FormsModule} from "@angular/forms";
-import {sign} from "chart.js/helpers";
+import {NgForOf} from "@angular/common";
 
 @Component({
   selector: 'app-personal-page',
@@ -13,7 +13,8 @@ import {sign} from "chart.js/helpers";
     imports: [
         ChartModule,
         ToggleButtonModule,
-        FormsModule
+        FormsModule,
+        NgForOf
     ],
   templateUrl: './personal-page.component.html',
   styleUrl: './personal-page.component.scss'
@@ -24,6 +25,7 @@ export class PersonalPageComponent {
     protected readonly name = this.router.url.split('/')[2].split('%20').join(' ');
     protected readonly patientDataYear = signal([] as PersonData[]);
     protected readonly patientDataBasic = signal({} as PersonData);
+    protected readonly patientHealthDetails = signal({} as status);
     //true is month
     heartRateTimeFrameView = signal(true);
     bloodPressureTimeFrameView = signal(true);
@@ -48,6 +50,9 @@ export class PersonalPageComponent {
 
     async setInfo(){
         const allData = await this.patientService.getPatientData(this.name);
+        const healthData = await this.patientService.getPatientHealthStatus(this.name);
+        this.patientHealthDetails.set(healthData);
+        console.log('health', this.patientHealthDetails());
         this.patientDataYear.set(allData);
         this.patientDataBasic.set(this.patientDataYear()[364]);
     }
