@@ -1,0 +1,99 @@
+<div class="grid">
+	<div class="col-12">
+		<div class="card">
+			<h5>Pacienti</h5>
+            <p-toast></p-toast>
+            <p-toolbar styleClass="mb-4">
+                <ng-template pTemplate="left">
+                    <div class="my-2">
+                        <button pButton pRipple label="Adaugă Pacient" icon="pi pi-plus" class="p-button-success mr-2" (click)="openNew()"></button>
+                    </div>
+                </ng-template>
+
+                <ng-template pTemplate="right">
+                    <p-fileUpload mode="basic" accept=".json" [maxFileSize]="1000000" label="Importează Pacient" chooseLabel="Importează Pacient" class="mr-2 inline-block"></p-fileUpload>
+                </ng-template>
+            </p-toolbar>
+			<p-dataView #dv [value]="patients" [paginator]="true" [rows]="12" filterBy="person_details.name" [sortField]="sortField" layout="grid">
+				<ng-template pTemplate="header">
+					<div class="flex w-full md:flex-row md:justify-content-between">
+						<span class="p-input-icon-left">
+                            <i class="pi pi-search"></i>
+                            <input type="search" pInputText placeholder="Cauta dupa nume" (input)="onFilter(dv, $event)">
+                        </span>
+					</div>
+				</ng-template>
+				<ng-template let-patients pTemplate="gridItem">
+					<div class="grid grid-nogutter">
+					<div class="col-12 md:col-4" *ngFor="let patient of patients">
+						<div (click)="goToPersonal(patient)" class="card hover:bg-primary-500 hover:text-white m-3 border-1 surface-border">
+							<div class="flex flex-wrap gap-2 align-items-center justify-content-between mb-2">
+									<span class="font-semibold">{{patient.person_details.name}}</span>
+                                    <img alt="status icon" src="/assets/demo/images/{{analyzeHealth(patient)}}.svg">
+							</div>
+							<div class="flex flex-column align-items-center text-center mb-3">
+							</div>
+							<div class="flex align-items-center justify-content-between">
+                                <span class="font-semibold">{{patient.person_details.age}} ani</span>
+                                <span class="font-semibold">{{patient.person_details.weight}} kg</span>
+                                <span class="font-semibold">{{patient.person_details.height}} cm</span>
+							</div>
+						</div>
+					</div>
+					</div>
+				</ng-template>
+			</p-dataView>
+		</div>
+	</div>
+    <p-dialog [(visible)]="patientDialog" [style]="{width: '600px'}" header="Adaugă un pacient nou" [modal]="true" class="p-fluid">
+        <ng-template pTemplate="content">
+            <div class="field">
+                <label for="name">Nume</label>
+                <input type="text" pInputText id="name" [(ngModel)]="patient.person_details.name" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.name}"/>
+                <small class="ng-dirty ng-invalid" *ngIf="submitted && !patient.person_details.name">Numele este obligatoriu.</small>
+            </div>
+            <div class="field">
+                <label for="age">Varsta</label>
+                <input id="age" type="number" pInputText [(ngModel)]="patient.person_details.age" required placeholder="0" />
+            </div>
+            <div class="field">
+                <label for="height">Inaltime (cm)</label>
+                <input type="number" placeholder="0" pInputText id="height" [(ngModel)]="patient.person_details.height" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.height}"/>
+            </div>
+            <div class="field">
+                <label for="weight">Greutate (kg)</label>
+                <input type="number" placeholder="0" pInputText id="weight" [(ngModel)]="patient.person_details.weight" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.weight}"/>
+            </div>
+
+            <div class="field">
+                <label class="mb-3">Preferinte dietetice</label>
+                <div class="formgrid grid">
+                    <div class="field-radiobutton col-6">
+                        <p-radioButton id="category1" name="category" value="vegetarian" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
+                        <label for="category1">Vegetarian</label>
+                    </div>
+                    <div class="field-radiobutton col-6">
+                        <p-radioButton id="category2" name="category" value="high-carb" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
+                        <label for="category2">High Carb</label>
+                    </div>
+                    <div class="field-radiobutton col-6">
+                        <p-radioButton id="category3" name="category" value="low-fat" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
+                        <label for="category3">Low Fat</label>
+                    </div>
+                    <div class="field-radiobutton col-6">
+                        <p-radioButton id="category4" name="category" value="high-protein" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
+                        <label for="category4">High Protein</label>
+                    </div>
+                    <div class="field-radiobutton col-6">
+                        <p-radioButton id="category5" name="category" value="balanced" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
+                        <label for="category4">Balansată</label>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+        <ng-template pTemplate="footer">
+            <button pButton pRipple label="Anulează" icon="pi pi-times" class="p-button-text" (click)="hideDialog()"></button>
+            <button pButton pRipple label="Salvează" icon="pi pi-check" class="p-button-text" (click)="savePatient()"></button>
+        </ng-template>
+    </p-dialog>
+</div>

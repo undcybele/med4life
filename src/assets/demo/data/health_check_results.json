@@ -1,0 +1,1265 @@
+{
+    "Stana Ene": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Cazimir Tudor": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Ozana Niță": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Maria Stănescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Petronela Ioniță": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Adelina Ene": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity."
+        ],
+        "explanations": [
+            "Inadequate caloric intake."
+        ]
+    },
+    "Sabina Ene": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Speranța Cristea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Liviu Georgescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Increase nutritional intake."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of undernutrition."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Below-normal BMI."
+        ]
+    },
+    "Gelu Manole": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Catinca Dochioiu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Romanița Dumitrescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Aurică Mazilescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Voicu Nistor": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Cazimir Stancu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Victoria Ene": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Margareta Mocanu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Teofil Toma": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Dorel Ioniță": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Sânziana Diaconescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Cosmin Mazilescu": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Anaida Ene": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Tatiana Nemeș": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Luana Pop": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Gheorghe Dima": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Iancu Tudor": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Octav Georgescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Adi Aanei": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Evanghelina Stancu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Aura Dochioiu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Andreea Oprea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Nicodim Aanei": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Ramona Voinea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Veniamin Voinea": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Eftimia Aanei": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Above-normal BMI."
+        ]
+    },
+    "Ina Dima": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Alistar Voinea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Ilarion Nistor": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Narcis Dinu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity."
+        ],
+        "explanations": [
+            "Inadequate caloric intake."
+        ]
+    },
+    "Achim Marin": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Irinel Dochioiu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule.",
+            "Increase nutritional intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders.",
+            "Risk of undernutrition."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed.",
+            "Below-normal BMI."
+        ]
+    },
+    "Olimpiu Dochioiu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity."
+        ],
+        "explanations": [
+            "Inadequate caloric intake."
+        ]
+    },
+    "Rada Florea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Ludmila Pop": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Olimpian Mocanu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Constanța Dochioiu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Ilarion Ene": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Increase nutritional intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of undernutrition."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Below-normal BMI."
+        ]
+    },
+    "Xenia Cristea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Vanesa Dinu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Above-normal BMI."
+        ]
+    },
+    "Mitruț Ioniță": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Malvina Nemeș": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Anca Dinu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Increase nutritional intake."
+        ],
+        "future_risks": [
+            "Risk of undernutrition."
+        ],
+        "explanations": [
+            "Below-normal BMI."
+        ]
+    },
+    "Caterina Toma": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Liana Suciu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Eusebia Voinea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Nechifor Cristea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Iolanda Ene": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity."
+        ],
+        "explanations": [
+            "Inadequate caloric intake."
+        ]
+    },
+    "Daria Manole": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Tiberia Barbu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule.",
+            "Increase nutritional intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders.",
+            "Risk of undernutrition."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed.",
+            "Below-normal BMI."
+        ]
+    },
+    "Violeta Ioniță": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Cosmina Georgescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Simina Georgescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Răzvan Florea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Lăcrămioara Florea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity."
+        ],
+        "explanations": [
+            "Inadequate caloric intake."
+        ]
+    },
+    "Ruxandra Ene": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Dacian Ioniță": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity."
+        ],
+        "explanations": [
+            "Inadequate caloric intake."
+        ]
+    },
+    "Adam Nistor": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity."
+        ],
+        "explanations": [
+            "Inadequate caloric intake."
+        ]
+    },
+    "Gicu Marin": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Roxelana Manole": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Ilona Nemeș": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Doru Suciu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Petruț Suciu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Iosefina Gheorghiu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Cristofor Popescu": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Matei Ene": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Carla Aanei": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Above-normal BMI."
+        ]
+    },
+    "Marinela Georgescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Ștefana Florea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Liana Voinea": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Eliza Suciu": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Georgeta Tudor": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Increase nutritional intake."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of undernutrition."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Below-normal BMI."
+        ]
+    },
+    "Steluța Ioniță": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Increase nutritional intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of undernutrition."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Below-normal BMI."
+        ]
+    },
+    "Nadia Oprea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Increase nutritional intake."
+        ],
+        "future_risks": [
+            "Risk of undernutrition."
+        ],
+        "explanations": [
+            "Below-normal BMI."
+        ]
+    },
+    "Alexandra Toma": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Gheorghiță Mocanu": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Liviu Oprea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule.",
+            "Increase nutritional intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders.",
+            "Risk of undernutrition."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed.",
+            "Below-normal BMI."
+        ]
+    },
+    "Corvin Tomescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Jana Voinea": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Zina Ionescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Zenovia Niță": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Virginia Gheorghiu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Andrada Dobre": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Daniela Marin": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Sonia Suciu": {
+        "health_status": "Healthy",
+        "recommendations": [],
+        "future_risks": [],
+        "explanations": []
+    },
+    "Vladimir Eftimie": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity."
+        ],
+        "explanations": [
+            "Inadequate caloric intake."
+        ]
+    },
+    "Carmina Mazilescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Vasile Stănescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Above-normal BMI."
+        ]
+    },
+    "Titus Nistor": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Balanced diet with adequate calorie intake.",
+            "Maintain a regular sleep schedule."
+        ],
+        "future_risks": [
+            "Potential nutritional deficiencies or obesity.",
+            "Risk of sleep disorders."
+        ],
+        "explanations": [
+            "Inadequate caloric intake.",
+            "Irregular sleep patterns observed."
+        ]
+    },
+    "Marcheta Popescu": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Adopt a healthier diet and exercise regimen."
+        ],
+        "future_risks": [
+            "Risk of obesity-related health issues."
+        ],
+        "explanations": [
+            "Above-normal BMI."
+        ]
+    },
+    "Melina Preda": {
+        "health_status": "Unhealthy",
+        "recommendations": [
+            "Maintain a regular sleep schedule.",
+            "Increase nutritional intake."
+        ],
+        "future_risks": [
+            "Risk of sleep disorders.",
+            "Risk of undernutrition."
+        ],
+        "explanations": [
+            "Irregular sleep patterns observed.",
+            "Below-normal BMI."
+        ]
+    }
+}
