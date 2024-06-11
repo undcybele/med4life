@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as Realm from 'realm-web';
+import {environment} from "../../../environments/environment";
 
 @Injectable({
     providedIn: 'root'
@@ -7,9 +8,10 @@ import * as Realm from 'realm-web';
 export class MongodbService {
     private app: Realm.App;
     private readonly credentials: Realm.Credentials;
+    mongo_id = environment.mongodb;
 
     constructor() {
-        this.app = new Realm.App({ id: 'med4life-azhmzdb' }); // Replace with your Realm app ID
+        this.app = new Realm.App({ id: this.mongo_id }); // Replace with your Realm app ID
         this.credentials = Realm.Credentials.anonymous(); // Use your preferred authentication method
     }
 
