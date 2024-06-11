@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as Realm from 'realm-web';
-import {environment} from "../../../environments/environment";
+// import * as process from "node:process";
 
 @Injectable({
     providedIn: 'root'
@@ -8,9 +8,11 @@ import {environment} from "../../../environments/environment";
 export class MongodbService {
     private app: Realm.App;
     private readonly credentials: Realm.Credentials;
-    mongo_id = environment.mongodb;
+    mongo_id = import.meta.env.NG_APP_MONGO_ID;
 
     constructor() {
+        console.log('hey',this.mongo_id)
+        console.log(import.meta.env)
         this.app = new Realm.App({ id: this.mongo_id }); // Replace with your Realm app ID
         this.credentials = Realm.Credentials.anonymous(); // Use your preferred authentication method
     }
