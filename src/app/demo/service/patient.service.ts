@@ -1,7 +1,6 @@
 import {HttpClient} from '@angular/common/http';
 import {Injectable, signal} from '@angular/core';
-import {HealthStatus, PersonData} from '../api/patient';
-import {firstValueFrom} from "rxjs";
+import {PersonData, UniquePatient} from '../api/patient';
 import {MongodbService} from "./mongodb.service";
 
 @Injectable()
@@ -9,6 +8,7 @@ export class PatientService {
 
     constructor(private http: HttpClient, private mongodbService: MongodbService) { }
     readonly patients = signal([]);
+    readonly uniquePatients = signal([]);
 
     async getAllPatients() {
         const res = await this.mongodbService.getUsers();
@@ -16,15 +16,9 @@ export class PatientService {
         return res as PersonData[];
     }
 
-    async getPatientData(userId: number) {
-        const res = await this.mongodbService.getUserById(userId);
-        console.log(res);
-        return res;
-    }
-
-    async getPatientHealthStatus(patientName: string) {
-        const res = await firstValueFrom(this.http.get<HealthStatus>('assets/demo/data/health_check_results.json'));
-        const data = res[patientName];
-        return data;
+    async getAllUniquePatients() {
+        const res = await this.mongodbService.getUniquePatients();
+        this.uniquePatients.set(res);
+        return res as UniquePatient[];
     }
 }

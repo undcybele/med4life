@@ -3,7 +3,7 @@ import { MenuItem } from 'primeng/api';
 import { PatientService } from '../../service/patient.service';
 import { Subscription, debounceTime } from 'rxjs';
 import { LayoutService } from 'src/app/layout/service/app.layout.service';
-import { PersonData } from '../../api/patient';
+import {PersonData, UniquePatient} from '../../api/patient';
 import {Router} from "@angular/router";
 
 @Component({
@@ -13,7 +13,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
     router = inject(Router);
     items!: MenuItem[];
 
-    patients!: PersonData[];
+    patients!: UniquePatient[];
 
     chartData: any;
 
@@ -25,7 +25,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
     healthyPatients = 0;
     unhealthyPatients = 0;
 
-    constructor(private patientService: PatientService, public layoutService: LayoutService) {
+    constructor(private patientService: PatientService, public layoutService: LayoutService, ) {
         this.subscription = this.layoutService.configUpdate$
         .pipe(debounceTime(25))
         .subscribe((config) => {
@@ -35,9 +35,9 @@ export class DashboardComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
         this.initChart();
-        this.patientService.getAllPatients().then(data => {
+        this.patientService.getAllUniquePatients().then(data => {
             this.patients = data;
-            this.oldPatients = data.filter(p => p.person_details.age > 65).length;
+            this.oldPatients = data.filter(p => p.age > 65).length;
             this.healthyPatients = 32;
             this.unhealthyPatients = 68;
         });

@@ -5,7 +5,7 @@ import {PatientService} from "../../../service/patient.service";
 import {ChartModule} from "primeng/chart";
 import {ToggleButtonModule} from "primeng/togglebutton";
 import {FormsModule} from "@angular/forms";
-import {NgForOf} from "@angular/common";
+import {NgForOf, NgIf} from "@angular/common";
 import {MongodbService} from "../../../service/mongodb.service";
 
 @Component({
@@ -15,7 +15,8 @@ import {MongodbService} from "../../../service/mongodb.service";
         ChartModule,
         ToggleButtonModule,
         FormsModule,
-        NgForOf
+        NgForOf,
+        NgIf
     ],
   templateUrl: './personal-page.component.html',
   styleUrl: './personal-page.component.scss'
@@ -63,7 +64,7 @@ export class PersonalPageComponent {
 
     initCharts() {
         const month_days = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"];
-        const months = ["Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie", "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie"]
+        const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
         const documentStyle = getComputedStyle(document.documentElement);
         const textColor = documentStyle.getPropertyValue('--text-color');
         const textColorSecondary = documentStyle.getPropertyValue('--text-color-secondary');
@@ -72,7 +73,7 @@ export class PersonalPageComponent {
             labels: this.heartRateTimeFrameView() ? month_days : months,
             datasets: [
                 {
-                    label: 'Rata inimii',
+                    label: 'Heart rate',
                     data: this.heartRateTimeFrameView() ? this.patientDataYear().filter(day => day.date.split('-')[1]==='12').map(vital => vital.vital_signs.heart_rate) : this.patientDataYear().filter(day => day.date.split('-')[2]==='01').map(vital => vital.vital_signs.heart_rate),
                     fill: false,
                     backgroundColor: documentStyle.getPropertyValue('--primary-500'),
@@ -116,13 +117,13 @@ export class PersonalPageComponent {
             labels: this.bloodPressureTimeFrameView() ? month_days : months,
             datasets: [
                 {
-                    label: 'Presiunea sistolica',
+                    label: 'Systolic pressure',
                     backgroundColor: documentStyle.getPropertyValue('--primary-500'),
                     borderColor: documentStyle.getPropertyValue('--primary-500'),
                     data: this.bloodPressureTimeFrameView() ? this.patientDataYear().filter(day => day.date.split('-')[1]==='12').map(vital => vital.vital_signs.blood_pressure_systolic) : this.patientDataYear().filter(day => day.date.split('-')[2]==='01').map(vital => vital.vital_signs.blood_pressure_systolic),
                 },
                 {
-                    label: 'Presiunea diastolica',
+                    label: 'Diastolic pressure',
                     backgroundColor: documentStyle.getPropertyValue('--primary-200'),
                     borderColor: documentStyle.getPropertyValue('--primary-200'),
                     data: this.bloodPressureTimeFrameView() ? this.patientDataYear().filter(day => day.date.split('-')[1]==='12').map(vital => vital.vital_signs.blood_pressure_diastolic) : this.patientDataYear().filter(day => day.date.split('-')[2]==='01').map(vital => vital.vital_signs.blood_pressure_diastolic),
@@ -205,7 +206,7 @@ export class PersonalPageComponent {
             labels: month_days,
             datasets: [
                 {
-                    label: 'Procentul de oxigenare a sangelui (%)',
+                    label: 'Blood oxygenation level (%)',
                     data: this.patientDataYear().filter(day => day.date.split('-')[1]==='12').map(vital => vital.vital_signs.oxygen_saturation),
                     fill: true,
                     backgroundColor: documentStyle.getPropertyValue('--primary-500'),
@@ -249,7 +250,7 @@ export class PersonalPageComponent {
             labels: month_days,
             datasets: [
                 {
-                    label: 'Ore dormite',
+                    label: 'Hours of sleep',
                     backgroundColor: documentStyle.getPropertyValue('--primary-500'),
                     borderColor: documentStyle.getPropertyValue('--primary-500'),
                     data: this.patientDataYear().filter(day => day.date.split('-')[1]==='12').map(vital => vital.sleep_duration),

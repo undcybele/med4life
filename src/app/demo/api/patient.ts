@@ -29,6 +29,16 @@ export interface PersonData {
     [key: string]: PersonData;
   }
 
+  export interface UniquePatient {
+      _id: string
+      name: string
+      age: number
+      height: number
+      weight: number
+      food_preference: string
+      health_check_id: number
+  }
+
   export interface status {
     health_status: string;
     recommendations: string[];

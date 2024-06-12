@@ -4,17 +4,17 @@
             <div class="card flex flex-row justify-content-between" >
                 <div>
                     <h4>{{patientDataBasic().person_details.name}}</h4>
-                    <p><span class="font-bold">Varsta: </span>{{patientDataBasic().person_details.age}} ani</p>
-                    <p><span class="font-bold">Inaltime: </span>{{patientDataBasic().person_details.height}} cm</p>
-                    <p><span class="font-bold">Greutate: </span>{{patientDataBasic().person_details.weight}} kg</p>
-                    <p><span class="font-bold">Dieta: </span>{{patientDataBasic().person_details.food_preference}}</p>
+                    <p><span class="font-bold">Age: </span>{{patientDataBasic().person_details.age}} years</p>
+                    <p><span class="font-bold">Height: </span>{{patientDataBasic().person_details.height}} cm</p>
+                    <p><span class="font-bold">Wight: </span>{{patientDataBasic().person_details.weight}} kg</p>
+                    <p><span class="font-bold">Diet: </span>{{patientDataBasic().person_details.food_preference}}</p>
                 </div>
                 <div class="flex flex-column gap-3">
                     <div class="flex flex-row gap-3">
                     <div class="card h-min">
                         <div class="flex justify-content-between gap-2">
                             <div>
-                                <span class="block text-500 font-medium mb-3">Rata inimii</span>
+                                <span class="block text-500 font-medium mb-3">Heart rate</span>
                                 <div class="text-900 font-bold text-xl">{{patientDataBasic().vital_signs.heart_rate}}</div>
                             </div>
                             <div class="flex align-items-center justify-content-center bg-blue-100 border-round" [style]="{width: '3rem', height: '2rem'}">
@@ -25,7 +25,7 @@
                     <div class="card h-min">
                         <div class="flex justify-content-between gap-2">
                             <div>
-                                <span class="block text-500 font-medium mb-3">Calorii consumate</span>
+                                <span class="block text-500 font-medium mb-3">Consumed calories</span>
                                 <div class="text-900 font-bold text-xl">{{patientDataBasic().nutrition.calories}}</div>
                             </div>
                             <div class="flex align-items-center justify-content-center bg-orange-100 border-round" [style]="{width: '3rem', height: '2rem'}">
@@ -37,22 +37,34 @@
                 <span><span class="font-bold">Status: </span>{{patientHealthDetails().health_status}}</span>
                     <div *ngIf="patientHealthDetails().health_status === 'Unhealthy'"></div>
                 <span>
-                    <span class="font-bold">Recomandări</span>
-                    <div *ngFor="let status of patientHealthDetails().recommendations">
+                    <span class="font-bold">Recommendations</span>
+                    <div *ngIf="patientHealthDetails().recommendations.length !== 0; else noRecs" >
+                        <div *ngFor="let status of patientHealthDetails().recommendations">
                         <span>{{status}}</span>
+                        </div>
                     </div>
+                    <ng-template #noRecs>No recommendations</ng-template>
+
                 </span>
                 <span>
-                    <span class="font-bold">Riscuri</span>
+                    <span class="font-bold">Risks</span>
+                    <div *ngIf="patientHealthDetails().future_risks.length !== 0; else noRisks" >
                     <div *ngFor="let risk of patientHealthDetails().future_risks">
                         <span>{{risk}}</span>
                     </div>
+                    </div>
+                    <ng-template #noRisks>No future risks</ng-template>
+
                 </span>
                 <span>
-                    <span class="font-bold">Explicatii</span>
+                    <span class="font-bold">Explanations</span>
+                    <div *ngIf="patientHealthDetails().explanations.length !== 0; else noExpl" >
                     <div *ngFor="let explanation of patientHealthDetails().explanations">
                         <span>{{explanation}}</span>
                     </div>
+                    </div>
+                    <ng-template #noExpl>No explanations</ng-template>
+
                 </span>
             </div>
 
@@ -60,25 +72,25 @@
             <div>
                 <div>
                     <div class="card">
-                        <p-toggleButton [ngModel]="heartRateTimeFrameView()" (onChange)="heartRateTimeFrameView.set(!heartRateTimeFrameView())" onLabel="Pe zile din ultima lună" offLabel="Pe lunile din ultimul an"></p-toggleButton>
-                        <h5>Rata inimii</h5>
+                        <p-toggleButton [ngModel]="heartRateTimeFrameView()" (onChange)="heartRateTimeFrameView.set(!heartRateTimeFrameView())" onLabel="Days of last month" offLabel="Months of last year"></p-toggleButton>
+                        <h5>Heart rate</h5>
                         <p-chart type="line" [data]="heart_rate" [options]="heart_options"></p-chart>
                     </div>
                     <div class="card">
-                        <p-toggleButton [ngModel]="bloodPressureTimeFrameView()" (onChange)="bloodPressureTimeFrameView.set(!bloodPressureTimeFrameView())" onLabel="Pe zile din ultima lună" offLabel="Pe lunile din ultimul an"></p-toggleButton>
-                        <h5>Presiunea din sange</h5>
+                        <p-toggleButton [ngModel]="bloodPressureTimeFrameView()" (onChange)="bloodPressureTimeFrameView.set(!bloodPressureTimeFrameView())" onLabel="Days of last month" offLabel="Months of last year"></p-toggleButton>
+                        <h5>Blood pressure</h5>
                         <p-chart type="bar" [data]="blood_pressure" [options]="blood_options"></p-chart>
                     </div>
                     <div class="card">
-                        <h5>Procentajul de oxigenare a sangelui</h5>
+                        <h5>Blood oxygenation percentage (%)</h5>
                         <p-chart type="line" [data]="o2_saturation_data" [options]="o2_saturation_options"></p-chart>
                     </div>
                     <div class="card flex flex-column align-items-center">
-                        <h5 class="text-left w-full">Nutriție</h5>
+                        <h5 class="text-left w-full">Nutrition</h5>
                         <p-chart type="polarArea" [data]="nutrition_data" [options]="nutrition_options"></p-chart>
                     </div>
                     <div class="card">
-                        <h5>Ore dormite</h5>
+                        <h5>Hours of sleep</h5>
                         <p-chart type="bar" [data]="sleep_data" [options]="sleep_options"></p-chart>
                     </div>
                 </div>

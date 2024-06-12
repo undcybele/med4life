@@ -41,4 +41,10 @@ export class MongodbService {
         const users = this.app.currentUser.functions.callFunction('getPatientHealthStatus', userId);
         return users;
     }
+    async getUniquePatients(){
+        await this.login();
+        const patients = this.app.currentUser.functions.callFunction('getUniquePatients');
+        return patients;
+
+    }
 }

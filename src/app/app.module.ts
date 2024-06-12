@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppLayoutModule } from './layout/app.layout.module';
 import { NotfoundComponent } from './demo/components/notfound/notfound.component';
 import { IconService } from './demo/service/icon.service';
-import { PhotoService } from './demo/service/photo.service';
 import { PatientService } from './demo/service/patient.service';
 import {RouterModule} from "@angular/router";
 
@@ -15,7 +14,6 @@ import {RouterModule} from "@angular/router";
     providers: [
         { provide: LocationStrategy, useClass: PathLocationStrategy },
         IconService,
-        PhotoService,
         PatientService,
     ],
     bootstrap: [AppComponent],
