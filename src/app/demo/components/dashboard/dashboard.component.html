@@ -3,7 +3,7 @@
         <div class="card mb-0">
             <div class="flex justify-content-between mb-3">
                 <div>
-                    <span class="block text-500 font-medium mb-3">Pacienți activi</span>
+                    <span class="block text-500 font-medium mb-3">Active patients</span>
                     <div class="text-900 font-medium text-xl">100</div>
                 </div>
                 <div class="flex align-items-center justify-content-center bg-blue-100 border-round" [ngStyle]="{width: '2.5rem', height: '3rem'}">
@@ -11,48 +11,48 @@
                 </div>
             </div>
             <span class="text-green-500 font-medium">+24 </span>
-            <span class="text-500">comparativ cu anul trecut</span>
+            <span class="text-500">compared to last year</span>
         </div>
     </div>
     <div class="w-4">
         <div class="card mb-0">
             <div class="flex justify-content-between mb-3">
                 <div>
-                    <span class="block text-500 font-medium mb-3">Pacienți în vârstă</span>
+                    <span class="block text-500 font-medium mb-3">Elderly patients</span>
                     <div class="text-900 font-medium text-xl">{{oldPatients}}</div>
                 </div>
                 <div class="flex align-items-center justify-content-center bg-orange-100 border-round" [ngStyle]="{width: '2.5rem', height: '3rem'}">
                     <i class="pi pi-clock text-orange-500 text-xl"></i>
                 </div>
             </div>
-            <span class="text-500">varsta > 65</span>
+            <span class="text-500">age > 65</span>
         </div>
     </div>
     <div class="w-4">
         <div class="card mb-0">
             <div class="flex justify-content-between mb-3">
                 <div>
-                    <span class="block text-500 font-medium mb-3">Pacienți nesănătoși</span>
+                    <span class="block text-500 font-medium mb-3">Unhealthy patients</span>
                     <div class="text-900 font-medium text-xl">{{unhealthyPatients}}</div>
                 </div>
                 <div class="flex align-items-center justify-content-center bg-purple-100 border-round" [ngStyle]="{width: '2.5rem', height: '3rem'}">
                     <i class="pi pi-times-circle text-purple-500 text-xl"></i>
                 </div>
             </div>
-            <span class="text-500">cu riscuri sporite</span>
+            <span class="text-500">high risk</span>
         </div>
     </div>
 </div>
     <div class="grid">
         <div class="col-12 xl:col-6">
             <div class="card">
-                <h5>Pacienți</h5>
+                <h5>Patients</h5>
                 <p-table [value]="patients" [paginator]="true" [rows]="9" responsiveLayout="scroll">
                     <ng-template pTemplate="header">
                         <tr>
-                            <th pSortableColumn="person_details.name">Nume <p-sortIcon field="person_details.name"></p-sortIcon></th>
-                            <th pSortableColumn="person_details.age">Varsta <p-sortIcon field="person_details.age"></p-sortIcon></th>
-                            <th>Date personale</th>
+                            <th pSortableColumn="person_details.name">Name <p-sortIcon field="person_details.name"></p-sortIcon></th>
+                            <th pSortableColumn="person_details.age">Age <p-sortIcon field="person_details.age"></p-sortIcon></th>
+                            <th>Personal data</th>
                         </tr>
                     </ng-template>
                     <ng-template pTemplate="body" let-patient>
@@ -70,53 +70,53 @@
         <div class="col-12 xl:col-6">
             <div class="card">
                 <div class="flex align-items-center justify-content-between mb-4">
-                    <h5>Notificații</h5>
+                    <h5>Notification</h5>
                 </div>
 
-                <span class="block text-600 font-medium mb-3">AZI</span>
+                <span class="block text-600 font-medium mb-3">TODAY</span>
                 <ul class="p-0 mx-0 mt-0 mb-4 list-none">
                     <li class="flex align-items-center py-2 border-bottom-1 surface-border">
                         <div class="w-3rem h-3rem flex align-items-center justify-content-center bg-orange-100 border-circle mr-3 flex-shrink-0">
                             <i class="pi pi-exclamation-triangle text-xl text-orange-500"></i>
                         </div>
                         <span class="text-900 line-height-3">Gabi Aanei
-                    <span class="text-700"> are o presiune sistolică a sângelui de <span class="text-orange-500">136</span></span>
+                    <span class="text-700"> has a systolic blood pressure of <span class="text-orange-500">136</span></span>
                 </span>
                     </li>
                     <li class="flex align-items-center py-2">
                         <div class="w-3rem h-3rem flex align-items-center justify-content-center bg-blue-100 border-circle mr-3 flex-shrink-0">
                             <i class="pi pi-info-circle text-xl text-blue-500"></i>
                         </div>
-                        <span class="text-700 line-height-3">Iurie Stoica a dormit <span class="text-blue-500 font-medium">5</span> ore.</span>
+                        <span class="text-700 line-height-3">Iurie Stoica slept <span class="text-blue-500 font-medium">5</span> ore.</span>
                     </li>
                 </ul>
 
-                <span class="block text-600 font-medium mb-3">IERI</span>
+                <span class="block text-600 font-medium mb-3">YESTERDAY</span>
                 <ul class="p-0 m-0 list-none">
                     <li class="flex align-items-center py-2 border-bottom-1 surface-border">
                         <div class="w-3rem h-3rem flex align-items-center justify-content-center bg-blue-100 border-circle mr-3 flex-shrink-0">
                             <i class="pi pi-info-circle text-xl text-blue-500"></i>
                         </div>
-                        <span class="text-900 line-height-3">Anatolie Ardelean<span class="text-blue-500"> nu a consumat destule proteine.</span></span>
+                        <span class="text-900 line-height-3">Anatolie Ardelean<span class="text-blue-500"> consumed no proteins.</span></span>
                     </li>
                     <li class="flex align-items-center py-2 border-bottom-1 surface-border">
                         <div class="w-3rem h-3rem flex align-items-center justify-content-center bg-orange-100 border-circle mr-3 flex-shrink-0">
                             <i class="pi pi-exclamation-triangle text-xl text-orange-500"></i>
                         </div>
                         <span class="text-900 line-height-3">Ionelia Eftimie
-                    <span class="text-700"> are aprox <span class="text-orange-500">61</span> bătăi de inimă pe minut</span></span>
+                    <span class="text-700"> has a <span class="text-orange-500">61</span> bpm</span></span>
                     </li>
                 </ul>
             </div>
             <div class="card">
                 <div class="flex justify-content-between align-items-center mb-5">
-                    <h5>Tipuri de diete</h5>
+                    <h5>Types of diets</h5>
                 </div>
                 <ul class="list-none p-0 m-0">
                     <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
                         <div>
                             <span class="text-900 font-medium mr-2 mb-1 md:mb-0">Vegetarian</span>
-                            <div class="mt-1 text-600">(fără produse animale)</div>
+                            <div class="mt-1 text-600">(no animal products)</div>
                         </div>
                         <div class="mt-2 md:mt-0 flex align-items-center">
                             <div class="surface-300 border-round overflow-hidden w-10rem lg:w-6rem" [ngStyle]="{height: '8px'}">
@@ -128,7 +128,7 @@
                     <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
                         <div>
                             <span class="text-900 font-medium mr-2 mb-1 md:mb-0">High Carb</span>
-                            <div class="mt-1 text-600">(dietă bogată în carbohidrați)</div>
+                            <div class="mt-1 text-600">(high carbohydrates)</div>
                         </div>
                         <div class="mt-2 md:mt-0 ml-0 md:ml-8 flex align-items-center">
                             <div class="surface-300 border-round overflow-hidden w-10rem lg:w-6rem" [ngStyle]="{height: '8px'}">
@@ -140,7 +140,7 @@
                     <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
                         <div>
                             <span class="text-900 font-medium mr-2 mb-1 md:mb-0">Low Fat</span>
-                            <div class="mt-1 text-600">(dietă slabă în grăsimi)</div>
+<!--                            <div class="mt-1 text-600">(low fat)</div>-->
                         </div>
                         <div class="mt-2 md:mt-0 ml-0 md:ml-8 flex align-items-center">
                             <div class="surface-300 border-round overflow-hidden w-10rem lg:w-6rem" [ngStyle]="{height: '8px'}">
@@ -152,7 +152,7 @@
                     <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
                         <div>
                             <span class="text-900 font-medium mr-2 mb-1 md:mb-0">Balanced</span>
-                            <div class="mt-1 text-600">(dietă balansată)</div>
+                            <div class="mt-1 text-600">(balanced mix)</div>
                         </div>
                         <div class="mt-2 md:mt-0 ml-0 md:ml-8 flex align-items-center">
                             <div class="surface-300 border-round overflow-hidden w-10rem lg:w-6rem" [ngStyle]="{height: '8px'}">
@@ -164,7 +164,7 @@
                     <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
                         <div>
                             <span class="text-900 font-medium mr-2 mb-1 md:mb-0">High Protein</span>
-                            <div class="mt-1 text-600">(bogată în proteine)</div>
+                            <div class="mt-1 text-600">(rich in protein)</div>
                         </div>
                         <div class="mt-2 md:mt-0 ml-0 md:ml-8 flex align-items-center">
                             <div class="surface-300 border-round overflow-hidden w-10rem lg:w-6rem" [ngStyle]="{height: '8px'}">

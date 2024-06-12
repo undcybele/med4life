@@ -1,17 +1,17 @@
 <div class="grid">
 	<div class="col-12">
 		<div class="card">
-			<h5>Pacienti</h5>
+			<h5>Patients</h5>
             <p-toast></p-toast>
             <p-toolbar styleClass="mb-4">
                 <ng-template pTemplate="left">
                     <div class="my-2">
-                        <button pButton pRipple label="Adaugă Pacient" icon="pi pi-plus" class="p-button-success mr-2" (click)="openNew()"></button>
+                        <button pButton pRipple label="Add patient" icon="pi pi-plus" class="p-button-success mr-2" (click)="openNew()"></button>
                     </div>
                 </ng-template>
 
                 <ng-template pTemplate="right">
-                    <p-fileUpload mode="basic" accept=".json" [maxFileSize]="1000000" label="Importează Pacient" chooseLabel="Importează Pacient" class="mr-2 inline-block"></p-fileUpload>
+                    <p-fileUpload mode="basic" accept=".json" [maxFileSize]="1000000" label="Import patient" chooseLabel="Import patient" class="mr-2 inline-block"></p-fileUpload>
                 </ng-template>
             </p-toolbar>
 			<p-dataView #dv [value]="patients" [paginator]="true" [rows]="12" filterBy="person_details.name" [sortField]="sortField" layout="grid">
@@ -19,7 +19,7 @@
 					<div class="flex w-full md:flex-row md:justify-content-between">
 						<span class="p-input-icon-left">
                             <i class="pi pi-search"></i>
-                            <input type="search" pInputText placeholder="Cauta dupa nume" (input)="onFilter(dv, $event)">
+                            <input type="search" pInputText placeholder="Search by name" (input)="onFilter(dv, $event)">
                         </span>
 					</div>
 				</ng-template>
@@ -48,25 +48,25 @@
     <p-dialog [(visible)]="patientDialog" [style]="{width: '600px'}" header="Adaugă un pacient nou" [modal]="true" class="p-fluid">
         <ng-template pTemplate="content">
             <div class="field">
-                <label for="name">Nume</label>
+                <label for="name">Name</label>
                 <input type="text" pInputText id="name" [(ngModel)]="patient.person_details.name" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.name}"/>
-                <small class="ng-dirty ng-invalid" *ngIf="submitted && !patient.person_details.name">Numele este obligatoriu.</small>
+                <small class="ng-dirty ng-invalid" *ngIf="submitted && !patient.person_details.name">Name is mandatory.</small>
             </div>
             <div class="field">
-                <label for="age">Varsta</label>
+                <label for="age">Age</label>
                 <input id="age" type="number" pInputText [(ngModel)]="patient.person_details.age" required placeholder="0" />
             </div>
             <div class="field">
-                <label for="height">Inaltime (cm)</label>
+                <label for="height">Height (cm)</label>
                 <input type="number" placeholder="0" pInputText id="height" [(ngModel)]="patient.person_details.height" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.height}"/>
             </div>
             <div class="field">
-                <label for="weight">Greutate (kg)</label>
+                <label for="weight">Weight (kg)</label>
                 <input type="number" placeholder="0" pInputText id="weight" [(ngModel)]="patient.person_details.weight" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.weight}"/>
             </div>
 
             <div class="field">
-                <label class="mb-3">Preferinte dietetice</label>
+                <label class="mb-3">Dietary preferences</label>
                 <div class="formgrid grid">
                     <div class="field-radiobutton col-6">
                         <p-radioButton id="category1" name="category" value="vegetarian" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
@@ -86,14 +86,14 @@
                     </div>
                     <div class="field-radiobutton col-6">
                         <p-radioButton id="category5" name="category" value="balanced" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
-                        <label for="category4">Balansată</label>
+                        <label for="category4">Balanced</label>
                     </div>
                 </div>
             </div>
         </ng-template>
         <ng-template pTemplate="footer">
-            <button pButton pRipple label="Anulează" icon="pi pi-times" class="p-button-text" (click)="hideDialog()"></button>
-            <button pButton pRipple label="Salvează" icon="pi pi-check" class="p-button-text" (click)="savePatient()"></button>
+            <button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-text" (click)="hideDialog()"></button>
+            <button pButton pRipple label="Save" icon="pi pi-check" class="p-button-text" (click)="savePatient()"></button>
         </ng-template>
     </p-dialog>
 </div>

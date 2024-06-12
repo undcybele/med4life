@@ -1,14 +1,14 @@
 <div class="grid">
 	<div class="col-12">
 		<div class="card">
-			<h5>Filtrare</h5>
+			<h5>Filter</h5>
 			<p-table #dt1 [value]="patients" dataKey="id" [rows]="10" [loading]="loading" [rowHover]="true" styleClass="p-datatable-gridlines" [paginator]="true" [globalFilterFields]="['person_details.name', 'person_details.age','person_details.food_preference']" responsiveLayout="scroll">
 				<ng-template pTemplate="caption">
 					<div class="flex justify-content-between flex-column sm:flex-row">
-						<button pButton label="Reseteaza" class="p-button-outlined mb-2" icon="pi pi-filter-slash" (click)="clear(dt1)"></button>
+						<button pButton label="Reset" class="p-button-outlined mb-2" icon="pi pi-filter-slash" (click)="clear(dt1)"></button>
 						<span class="p-input-icon-left mb-2">
 							<i class="pi pi-search"></i>
-							<input pInputText type="text" #filter (input)="onGlobalFilter(dt1, $event)" placeholder="Cauta pacient" class="w-full"/>
+							<input pInputText type="text" #filter (input)="onGlobalFilter(dt1, $event)" placeholder="Search patient" class="w-full"/>
 						</span>
 					</div>
 				</ng-template>
@@ -16,41 +16,41 @@
 					<tr>
 						<th style="min-width: 12rem">
 							<div class="flex justify-content-between align-items-center">
-								Nume
+								Name
 								<p-columnFilter type="text" field="person_details.name" display="menu" placeholder="Cauta dupa nume"></p-columnFilter>
 							</div>
 						</th>
 						<th style="min-width: 8rem">
 							<div class="flex justify-content-between align-items-center">
-								Varsta
+								Age
 								<p-columnFilter type="number" field="person_details.name" display="menu"></p-columnFilter>
 							</div>
 						</th>
                         <th style="min-width: 8rem">
                             <div class="flex justify-content-between align-items-center">
-                                Inaltime (cm)
+                                Height (cm)
                                 <p-columnFilter type="number" field="person_details.height" display="menu"></p-columnFilter>
                             </div>
                         </th>
                         <th style="min-width: 8rem">
                             <div class="flex justify-content-between align-items-center">
-                                Greutate (kg)
+                                Weight (kg)
                             </div>
                         </th>
                         <th style="min-width: 8rem">
                             <div class="flex justify-content-between align-items-center">
-                                Dieta
+                                Diet
                                 <p-columnFilter type="text" field="person_details.food_preference" display="menu"></p-columnFilter>
                             </div>
                         </th>
                         <th style="min-width: 8rem">
                             <div class="flex justify-content-between align-items-center">
-                                Ore de somn
+                                Sleep hours
                             </div>
                         </th>
                         <th style="min-width: 8rem">
                             <div class="flex justify-content-between align-items-center">
-                                Calorii consumate
+                                Consumed calories
                             </div>
                         </th>
 					</tr>
@@ -82,12 +82,12 @@
 				</ng-template>
 				<ng-template pTemplate="emptymessage">
 					<tr>
-						<td colspan="8">Nu exista pacienti disponibili.</td>
+						<td colspan="8">No available patients.</td>
 					</tr>
 				</ng-template>
 				<ng-template pTemplate="loadingbody">
 					<tr>
-						<td colspan="8">Se incarca baza de date a pacientilor. Va rugam sa asteptati...</td>
+						<td colspan="8">Patients database is being loaded. Please wait...</td>
 					</tr>
 				</ng-template>
     		</p-table>

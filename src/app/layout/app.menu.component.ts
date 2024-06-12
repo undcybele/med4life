@@ -17,14 +17,14 @@ export class AppMenuComponent implements OnInit {
             {
                 label: '',
                 items: [
-                    { label: 'Acasă', icon: 'pi pi-fw pi-home', routerLink: ['/'] }
+                    { label: 'Home', icon: 'pi pi-fw pi-home', routerLink: ['/'] }
                 ]
             },
             {
                 label: '',
                 items: [
-                    { label: 'Lista pacienților', icon: 'pi pi-fw pi-list', routerLink: ['/uikit/list'] },
-                    { label: 'Tabel cu pacienți', icon: 'pi pi-fw pi-table', routerLink: ['/uikit/table'] },
+                    { label: 'List of patients', icon: 'pi pi-fw pi-list', routerLink: ['/uikit/list'] },
+                    { label: 'Table of patients', icon: 'pi pi-fw pi-table', routerLink: ['/uikit/table'] },
                 ]
             }
         ];
