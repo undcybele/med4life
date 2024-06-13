@@ -49,43 +49,43 @@
         <ng-template pTemplate="content">
             <div class="field">
                 <label for="name">Name</label>
-                <input type="text" pInputText id="name" [(ngModel)]="patient.person_details.name" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.name}"/>
-                <small class="ng-dirty ng-invalid" *ngIf="submitted && !patient.person_details.name">Name is mandatory.</small>
+                <input type="text" pInputText id="name" [(ngModel)]="patient.name" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.name}"/>
+                <small class="ng-dirty ng-invalid" *ngIf="submitted && !patient.name">Name is mandatory.</small>
             </div>
             <div class="field">
                 <label for="age">Age</label>
-                <input id="age" type="number" pInputText [(ngModel)]="patient.person_details.age" required placeholder="0" />
+                <input id="age" type="number" pInputText [(ngModel)]="patient.age" required placeholder="0" />
             </div>
             <div class="field">
                 <label for="height">Height (cm)</label>
-                <input type="number" placeholder="0" pInputText id="height" [(ngModel)]="patient.person_details.height" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.height}"/>
+                <input type="number" placeholder="0" pInputText id="height" [(ngModel)]="patient.height" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.height}"/>
             </div>
             <div class="field">
                 <label for="weight">Weight (kg)</label>
-                <input type="number" placeholder="0" pInputText id="weight" [(ngModel)]="patient.person_details.weight" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.weight}"/>
+                <input type="number" placeholder="0" pInputText id="weight" [(ngModel)]="patient.weight" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !patient.person_details.weight}"/>
             </div>
 
             <div class="field">
                 <label class="mb-3">Dietary preferences</label>
                 <div class="formgrid grid">
                     <div class="field-radiobutton col-6">
-                        <p-radioButton id="category1" name="category" value="vegetarian" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
+                        <p-radioButton id="category1" name="category" value="vegetarian" [(ngModel)]="patient.food_preference"></p-radioButton>
                         <label for="category1">Vegetarian</label>
                     </div>
                     <div class="field-radiobutton col-6">
-                        <p-radioButton id="category2" name="category" value="high-carb" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
+                        <p-radioButton id="category2" name="category" value="high-carb" [(ngModel)]="patient.food_preference"></p-radioButton>
                         <label for="category2">High Carb</label>
                     </div>
                     <div class="field-radiobutton col-6">
-                        <p-radioButton id="category3" name="category" value="low-fat" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
+                        <p-radioButton id="category3" name="category" value="low-fat" [(ngModel)]="patient.food_preference"></p-radioButton>
                         <label for="category3">Low Fat</label>
                     </div>
                     <div class="field-radiobutton col-6">
-                        <p-radioButton id="category4" name="category" value="high-protein" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
+                        <p-radioButton id="category4" name="category" value="high-protein" [(ngModel)]="patient.food_preference"></p-radioButton>
                         <label for="category4">High Protein</label>
                     </div>
                     <div class="field-radiobutton col-6">
-                        <p-radioButton id="category5" name="category" value="balanced" [(ngModel)]="patient.person_details.food_preference"></p-radioButton>
+                        <p-radioButton id="category5" name="category" value="balanced" [(ngModel)]="patient.food_preference"></p-radioButton>
                         <label for="category4">Balanced</label>
                     </div>
                 </div>

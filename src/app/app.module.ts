@@ -4,8 +4,8 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppLayoutModule } from './layout/app.layout.module';
 import { NotfoundComponent } from './demo/components/notfound/notfound.component';
-import { IconService } from './demo/service/icon.service';
-import { PatientService } from './demo/service/patient.service';
+import { IconService } from './demo/services/icon.service';
+import { PatientService } from './demo/services/patient.service';
 import {RouterModule} from "@angular/router";
 
 @NgModule({

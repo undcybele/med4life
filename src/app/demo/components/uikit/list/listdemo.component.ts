@@ -1,23 +1,24 @@
-import {Component, inject, OnInit} from '@angular/core';
-import {MessageService, SelectItem} from 'primeng/api';
+import {Component, effect, inject, OnInit} from '@angular/core';
+import {MessageService} from 'primeng/api';
 import { DataView } from 'primeng/dataview';
-import { PersonData } from 'src/app/demo/api/patient';
-import { PatientService } from 'src/app/demo/service/patient.service';
+import {PersonData, UniquePatient} from 'src/app/demo/models/patient';
+import { PatientService } from 'src/app/demo/services/patient.service';
 import {Router} from "@angular/router";
 
 @Component({
     templateUrl: './listdemo.component.html',
     providers: [MessageService]
 })
-export class ListDemoComponent implements OnInit {
+export class ListDemoComponent {
 
     patients: PersonData[] = [];
     router = inject(Router);
     sortField: string = '';
-    constructor(private patientService: PatientService) { }
-
-    ngOnInit() {
-        this.patientService.getAllPatients().then(data => this.patients = data);
+    constructor(private patientService: PatientService) {
+        this.patientService.getPatientLatestData().then(data => this.patients = data);
+        effect((submitted) => {
+            this.patientService.getPatientLatestData().then(data => this.patients = data);
+        });
     }
 
     onFilter(dv: DataView, event: Event) {
@@ -63,23 +64,17 @@ export class ListDemoComponent implements OnInit {
     }
 
     submitted: boolean = false;
-    patient: PersonData = {} as PersonData;
+    patient: UniquePatient = {} as UniquePatient;
     patientDialog: boolean = false;
     messageService = inject(MessageService);
 
     openNew() {
         this.patient = {
-            _id: '',
-            health_check_id: '',
-            original_id: '',
-            date: '',
-            person_details: {
-                name: "",
-                age: null,
-                height: null,
-                weight: null,
-                food_preference: "vegetarian"
-            },
+            name: "",
+            age: null,
+            height: null,
+            weight: null,
+            food_preference: "vegetarian"
         };
         this.submitted = false;
         this.patientDialog = true;
@@ -91,7 +86,13 @@ export class ListDemoComponent implements OnInit {
 
     savePatient() {
         console.log(this.patient);
-        this.messageService.add({ severity: 'success', summary: 'Succes!', detail: 'Pacient nou creat cu succes', life: 3000 });
+        try{
+            this.patientService.addPatient(this.patient).then();
+            this.messageService.add({ severity: 'success', summary: 'Succes!', detail: 'New patient created successfully', life: 3000 });
+        }
+        catch(error){
+            this.messageService.add({ severity: 'danger', summary: 'OOPS!', detail: 'Something went wrong.', life: 3000 });
+        }
         this.submitted = true;
         this.patientDialog = false;
     }

@@ -1,12 +1,12 @@
 import {Component, effect, inject, signal} from '@angular/core';
 import {Router} from "@angular/router";
-import {PersonData, status} from "../../../api/patient";
-import {PatientService} from "../../../service/patient.service";
+import {PersonData, status} from "../../../models/patient";
+import {PatientService} from "../../../services/patient.service";
 import {ChartModule} from "primeng/chart";
 import {ToggleButtonModule} from "primeng/togglebutton";
 import {FormsModule} from "@angular/forms";
 import {NgForOf, NgIf} from "@angular/common";
-import {MongodbService} from "../../../service/mongodb.service";
+import {MongodbService} from "../../../services/mongodb.service";
 
 @Component({
   selector: 'app-personal-page',
